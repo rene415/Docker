@@ -1,0 +1,1 @@
+clear; while [ 1 ] ; do echo L O C K  Y O U R  C O M P U T E R; echo '\n'; sleep 1; done
