@@ -1,2 +1,4 @@
 #!/bin/bash
+#env- sets the enviormental variables
+#copy and paste into terminal and press enter
 eval $(docker-machine env Char)

@@ -1,2 +1,4 @@
 #!/bin/bash
+#creating a vm called with DM using the create command with the designated driver being VirtualBox
+#docker-machine create --driver "virtualbox" [name_of_VM]
 docker-machine create --driver "virtualbox" Char

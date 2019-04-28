@@ -1,2 +1,3 @@
 #!/bin/bash
+#inspect - return low level info on docker projects
 docker inspect --format '{{ .NetworkSettings.IPAddress }}' overlord

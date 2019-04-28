@@ -1,2 +1,3 @@
 #!/bin/bash
+#ip - gets the Ip address of the machine
 docker-machine ip Char

@@ -1,0 +1,1 @@
+docker run --name spawning-pool -e MYSQL_ROOTPASSWORD=Kerrigan -d --restart always mysql

@@ -1,2 +1,3 @@
 #!/bin/bash
+#run - allows you to run container
 docker run hello-world

@@ -1,5 +1,9 @@
 #!/bin/bash
+#updates the system
 apt-get update -y
+#upgrades the system
 apt-get upgrade -y
+#installs gcc compiler
 apt-get install gcc -y
+#installs git
 apt-get install git -y

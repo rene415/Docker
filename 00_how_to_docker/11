@@ -1,3 +1,4 @@
 #!/bin/bash
-clear;
+#volume ls lets you see all volumes
+#-q - allows you to just pull the volume names
 docker volume ls -q

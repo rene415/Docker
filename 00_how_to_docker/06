@@ -1,3 +1,5 @@
 #!/bin/bash
+#pulls the nginx contianer image from the Docker Hub
 docker pull nginx
-docker run -p 5000:80 --restart always --detach --name=overlord nginx
+#runs the port number on the Char VM on port 5000 and will always restart it detaches it self with the name overlord
+docker run -p $(./02):5000:80 --restart always --detach --name=overlord nginx

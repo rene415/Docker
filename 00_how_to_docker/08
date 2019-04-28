@@ -1,8 +1,5 @@
 #!/bin/bash
-docker pull alpine
-echo 'FROM alpine:3.5
-RUN apk add --no-cache mysql-client
-ENTRYPOINT ["mysql"]'>Dockerfile
-clear
+#run alpine, auto pulls, and it deletes it self after exiting
+#-t - allocates pesduo-TTY
+#-i - interactive, keeps STDIN open even if its not attached
 docker run -it --rm alpine
-rm Dockerfile
